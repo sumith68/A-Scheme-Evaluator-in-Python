@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="8" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="1" edit-time="2044" last-saved="1285521963" uid="60fa9c24-c98e-11df-8bf9-d95eca43ab68">
+<version id="1" started="1285521963" uid="2386bc92-c993-11df-8bf9-d95eca43ab68" auto="0" top-xid="8"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+<s type="C" name="Reference" props="font-size:10pt"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="4" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="5"><c props="font-family:Times New Roman; text-decoration:underline; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; font-size:18pt">Scheme Evaluator:</c></p>
+<p style="Normal" xid="2"><c props="font-family:Times New Roman; text-decoration:none; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; font-size:18pt">		</c></p>
+<p style="Normal" xid="3"><c props="font-family:Times New Roman; text-decoration:none; lang:en-US; text-position:normal; font-weight:bold; font-style:normal; font-size:18pt">		</c><c props="font-family:Times New Roman; font-size:18pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Here I implement a minimal evaluator for Scheme in Python.It evaluates all the basic functionalities of Scheme language. It consist of three files </c><c props="font-family:Times New Roman; font-size:18pt; lang:en-US; text-position:normal; font-weight:normal; font-style:italic; text-decoration:none">final.py, to_list.py, opns.py.</c></p>
+<p style="Normal" xid="1" props="font-family:Times New Roman; font-size:18pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c props="font-style:italic; font-size:18pt">final.py</c><c props="font-size:18pt"> is the core file of the project.It consist of three methods,</c></p>
+<p style="Normal" xid="6" props="font-family:Times New Roman; font-size:18pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c props="font-style:italic; font-size:18pt">converter()</c><c props="font-size:18pt">,</c><c props="font-style:italic; font-size:18pt">evaluator()</c><c props="font-size:18pt">,and </c><c props="font-style:italic; font-size:18pt">check()</c><c props="font-size:18pt">. The </c><c props="font-style:italic; font-size:18pt">evaluator()</c><c props="font-size:18pt"> performs the arithmetic and logic operations.The </c><c props="font-style:italic; font-size:18pt">check()</c><c props="font-size:18pt"> method checks the conditions. </c><c props="font-style:italic; font-size:18pt">to_list.py </c><c props="font-size:18pt">is the file which contains methods which takes the input expression from the user and convert it into corresponding list.</c><c props="font-style:italic; font-size:18pt">final.py</c><c props="font-size:18pt"> takes this list as the argument and evaluate it. </c><c props="font-style:italic; font-size:18pt">opns.py</c><c props="font-size:18pt"> is a file which contains a method, </c><c props="font-style:italic; font-size:18pt">first()</c><c props="font-size:18pt"> </c><c props="font-style:italic; font-size:18pt">.first()</c><c props="font-size:18pt"> returns the first element of the list.</c></p>
+</section>
+</abiword>
